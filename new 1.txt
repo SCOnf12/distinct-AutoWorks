@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <form name="contact" netlify>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distinct Auto Works</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #111111;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 3px solid #ff6600;
+        }
+
+        h1 {
+            color: #ff6600;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .tagline {
+            color: #ffffff;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .services {
+            padding: 3rem 0;
+        }
+
+        h2 {
+            color: #ff6600;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .service-item {
+            background-color: #222222;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+            background-color: #333333;
+        }
+
+        .why-us {
+            background-color: #1a1a1a;
+            padding: 3rem 0;
+            margin: 2rem 0;
+            border-radius: 12px;
+        }
+
+        .why-us p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 3rem 0;
+            background-color: #222222;
+            border-radius: 12px;
+            margin-top: 2rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #ff6600;
+        }
+
+        .contact-item a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .service-item ul {
+            list-style-position: inside;
+            padding-left: 1rem;
+        }
+
+        .service-item li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DISTINCT AUTO WORKS</h1>
+            <p class="tagline">Performance & Precision for Your Ride</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Maintenance</h3>
+                    <ul>
+                        <li>Oil Change</li>
+                        <li>Spark Plug Replacement</li>
+                        <li>Wheel Inspection</li>
+                        <li>Brake Service</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <h3>Diagnostics</h3>
+                    <ul>
+                        <li>Electronic Diagnosis</li>
+                        <li>Starting System Test</li>
+                        <li>Minor Fixes</li>
+                        <li>System Checks</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <h3>Customization</h3>
+                    <ul>
+                        <li>Underglow Installation</li>
+                        <li>Interior Lighting</li>
+                        <li>Aftermarket Parts</li>
+                        <li>Custom Modifications</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <h2>Why Choose Us?</h2>
+            <p>
+                At Distinct Auto Works, we deliver excellence right to your doorstep. Choose between our mobile service, 
+                where we bring our expertise to your driveway or garage, or visit our fully-equipped shop. We combine 
+                professional service with unmatched convenience, ensuring your vehicle receives the care it deserves, 
+                wherever you prefer. With our competitive pricing and customer-first approach, we're transforming the 
+                auto service experience.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    📞 <a href="tel:4103225122">410-322-5122</a>
+                </div>
+                <div class="contact-item">
+                    📧 <a href="mailto:saniyanadeem123@gmail.com">saniyanadeem123@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
